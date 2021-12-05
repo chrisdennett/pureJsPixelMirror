@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Pure JS Pixel Mirror</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="code.js"></script>
+  </head>
+
+  <body>
+    <div class="controls">
+      <label>
+        blocks across:
+        <input id="blockSlider" type="range" min="10" max="200" step="1" />
+      </label>
+      <label>
+        block size:
+        <input id="blockSizeSlider" type="range" min="1" max="10" step="1" />
+      </label>
+    </div>
+    <canvas id="artCanvas" />
+    <video autoplay="true" id="videoElement"></video>
+  </body>
+</html>

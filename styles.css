@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+#videoElement {
+  background-color: #666;
+  display: none;
+  position: absolute;
+}
